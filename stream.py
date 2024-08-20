@@ -1,3 +1,7 @@
 import streamlit as st
 
-st.write("Hello World")
+st.title("Making a Button")
+result = st.button("Click Here")
+st.write(result)
+if result:
+    st.write(":smile:")
